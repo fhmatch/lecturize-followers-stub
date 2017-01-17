@@ -1,0 +1,45 @@
+{
+    "name": "lecturize/laravel-followers",
+    "description": "Build a poly-morph Follower system or simply associate Eloquent models in Laravel 5.",
+    "homepage" : "https://github.com/Lecturize/Laravel-Followers",
+    "license": "MIT",
+    "keywords": [
+        "followers",
+        "follower",
+        "following",
+        "follower system",
+        "followable",
+        "eloquent",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name"     : "Alexander Manfred Poellmann",
+            "homepage" : "http://twitter.com/AMPoellmann",
+            "role"     : "developer"
+        }
+    ],
+    "require": {
+        "php"                   : ">=5.6.4",
+        "doctrine/dbal"         : "2.5.x",
+        "illuminate/support"    : ">=5.1",
+        "illuminate/database"   : ">=5.1"
+    },
+    "require-dev": {
+        "mockery/mockery" : "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lecturize\\Followers\\" : "src/"
+        }
+    },
+    "extra": {
+        "branch-alias" : {
+            "dev-master" : "0.0.x-dev"
+        }
+    },
+    "support" : {
+        "source" : "https://github.com/Lecturize/Laravel-Followers",
+        "issues" : "https://github.com/Lecturize/Laravel-Followers/issues"
+    }
+}
